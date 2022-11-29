@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Iced latte",
+        "description": "Our signature iced latte made with our premium homegrown coffee beans",
+        "price": 4.99,
+        "image": "images/iced-latte.png",
+        "vegan": "no",
+        "glutenfree": "yes"
+      },
+    {
+      "name": "Chocolate Chip Cookies",
+      "description": "Six mlik chocolate chip cookies",
+      "price": 8.99,
+      "image": "images/chocolate-chip-cookie.png",
+      "vegan": "no",
+      "glutenfree": "no"
+    },
+    {
+      "name": "Egg Custard Bun",
+      "description": "A fluffy steamed bun with a savory egg filling",
+      "price": 4.99,
+      "image": "images/egg-custard-bun.png",
+      "vegan": "no",
+      "glutenfree": "no"
+    },
+    {
+      "name": "Steamed Taro Buns",
+      "description": "Two soft steamed buns filled with gooey purple taro filling",
+      "price": 5.99,
+      "image": "images/taro-bun.png",
+      "vegan": "yes",
+      "glutenfree": "no"
+    },
+    {
+      "name": "Macarons",
+      "description": "A box of three macarons in assorted flavors",
+      "price": 4.99,
+      "image": "images/macarons.png",
+      "vegan": "no",
+      "glutenfree": "yes"
+    },
+    {
+      "name": "Berry Filled Croissant",
+      "description": "A classic butter croissant with a flaky crust stuffed with an assortment of berries",
+      "price": 7.99,
+      "image": "images/stuffed-croissant.png",
+      "vegan": "no",
+      "glutenfree": "no"
+    },
+    {
+      "name": "Matcha Tiramisu",
+      "description": "A classic tiramisu with a twist made with layers of matcha-soaked ladyfingers and mascarpone cream",
+      "price": 8.99,
+      "image": "images/matcha-tiramisu.png",
+      "vegan": "no",
+      "glutenfree": "yes"
+    },
+    {
+      "name": "Egg Tart",
+      "description": "A flaky pastry shell filled with a sweet egg custard",
+      "price": 3.99,
+      "image": "images/egg-tart.png",
+      "vegan": "no",
+      "glutenfree": "yes"
+    },
+    {
+      "name": "Everything Bagel",
+      "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
+      "price": 2.99,
+      "image": "images/everything-bagel.png",
+      "vegan": "yes",
+      "glutenfree": "no"
+    },
+    {
+      "name": "Gingerbread Man",
+      "description": "A soft gingerbread cookie with a sweet icing glaze",
+      "price": 1.99,
+      "image": "images/gingerbread-man.png",
+      "vegan": "yes",
+      "glutenfree": "yes"
+    },
+    {
+      "name": "Strawberry Cheesecake",
+      "description": "A slice of classic New York cheesecake topped with strawberries",
+      "price": 8.99,
+      "image": "images/strawberry-cheesecake.png",
+      "vegan": "no",
+      "glutenfree": "yes"
+    },
+    {
+      "name": "Cream Puff",
+      "description": "Light and airy pâte à choux filled with sweet whipped cream",
+      "price": 2.99,
+      "image": "images/cream-puff.png",
+      "vegan": "no",
+      "glutenfree": "yes"
+    }
+]
