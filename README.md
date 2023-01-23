@@ -1,25 +1,14 @@
-# Development
+# CSCI 1300 Capstone Project
 
-### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+## Title
+Integration of React multi-states and UI/UX concepts behind a functional webpage
 
-### Goal and Value of the Application
-The goal/value of the application is for users to view items of a bakery that can be sorted by price and filtered by either vegan and gluten-free options. Each backery item has a name, description, image, price, filter tags, and option to add to cart. Also, as users can add items to cart, they can view what they have in the cart, the total price, and option to remove items from cart.
+## Abstract
+Behind a functional webpage involves the use of maintaining/changing states of the page, which may include data, different areas/views of the page, etc. That in conjunction with the consideration of how a user would interact with the changing states of the page to reach their purpose or goal is what completes a fully functional webpage. In this project, the goal for the user would be to view the items of a bakery and to have the option to purchase them. On the surface level, the main states of the web page consists of default (all items), different variations of items shown by the use of many different filtering/search/order options that can be used together, and displaying/redirecting to other components like the shopping cart and checkout section. To handle these different types of states of the webpage, “react states” were used by holding data of the items, shopping cart, boolean and input values, etc. These states were updated by interactions with the user and within functions of the code as many of the states are related to others, where if one is updated many other states would also be updated depending on the many different conditions. The way the states of the page can be altered are presented to the user with the thought of UI/UX concepts. For example, key concepts are what does each part of the page represent, what parts are actionable and how do they interact with each other, how does the page state flow, and for the user what are the steps in order to complete certain actions/goals. For instance one of the concepts related to this webpage, is setting up how the many different/search/order options of the items should work when combined, which is making sure every combination works and that the way it works is intuitive and assumed to the user. With the integration of multi-states and user interface / user experience concepts, a fully functional web page can be implemented.
 
-### Usability Principles Considered
-Layout:
-    Made a grid for all bakery items easy to view, also separated each item as a round rectangle like a card. Use of colors to match concepts, like the vegan and gluten-free filters combined with the toggle button.
-
-Hierarchy:
-    Made sure to have all bakery items the same type of card/hierachy with emphasis of the item's name and example image. Shopping cart items were also same type of card/hierachy but smaller version of the bakery items listed as description/details are not important for cart items. Also hierachy of text for categories of bakery items and cart.
-
-### Organization of Components
-Had two main components which were Item and cartItem, they are relatively similar, the major difference is that the cartItem has less details and is smaller than that of the Item component. These components were created as they are multiple bakery items and they are in the same category.
-
-### How Data is Passed Down Through Components
-Data that is passed into the Item component is data from the data.json file which contains information name, description, price, image, vegan, and gluten-free. All that information is in the form of a list for each of the 12 bakery items and then mapped into each Item compoenent.
-
-Data that is passed into the cartItem component is similar to that of the Item component but with only information on name, price, and count. That information is passed into the cartItem component the same wasy as the item component with the use of mappings.
-
-### How the User Triggers State Changes
-Each of the buttons and toggles on the page trigger state changes which are the add/remove to cart button, sort button, and toggle switch for vegan and gluten-free options. With the use of state/setState for availableItems and cart we can keep track of which items are available to shop based on user preferences and what is in the cart so far. When sorting price or filtering by vegan/gluten-free the avaiableItems state change is triggered. When the add to or remove from cart the cart state change is triggered.
+## Steps on how to view/use webpage
+1. Clone this repository
+2. Go into its directory
+3. Run: npm install
+4. Run: npm start
+5. Webpage will pop up locally in your default browser
