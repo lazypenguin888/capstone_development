@@ -2,11 +2,12 @@ import "../App.css";
 
 export function Item(props) {
     return (
-        <div className="item-box">
+        <div className="item-box" style={{background: "#fcfbfa"}}>
             <img src={require("../assets/" + props.item.image)} alt={props.item.name} className="item-image"></img>
             <h2>{props.item.name}</h2>
             <h5>{props.item.description}</h5>
             <h5>Price: {props.item.price}</h5>
+            <h5>Estimate Caloric Count: {props.item.estimatedCalories}</h5>
             {props.item.vegan === "yes" &&
                 <div className="tag" style={{background: "#ff617b"}}>vegan</div>
             }

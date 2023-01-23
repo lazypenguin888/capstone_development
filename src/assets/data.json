@@ -3,15 +3,17 @@
         "name": "Iced latte",
         "description": "Our signature iced latte made with our premium homegrown coffee beans",
         "price": 4.99,
+        "estimatedCalories": 100,
         "image": "images/iced-latte.png",
         "vegan": "no",
         "glutenfree": "yes"
       },
     {
       "name": "Chocolate Chip Cookies",
-      "description": "Six mlik chocolate chip cookies",
+      "description": "Six milk chocolate chip cookies",
       "price": 8.99,
       "image": "images/chocolate-chip-cookie.png",
+      "estimatedCalories": 600,
       "vegan": "no",
       "glutenfree": "no"
     },
@@ -20,6 +22,7 @@
       "description": "A fluffy steamed bun with a savory egg filling",
       "price": 4.99,
       "image": "images/egg-custard-bun.png",
+      "estimatedCalories": 250,
       "vegan": "no",
       "glutenfree": "no"
     },
@@ -28,6 +31,7 @@
       "description": "Two soft steamed buns filled with gooey purple taro filling",
       "price": 5.99,
       "image": "images/taro-bun.png",
+      "estimatedCalories": 200,
       "vegan": "yes",
       "glutenfree": "no"
     },
@@ -36,6 +40,7 @@
       "description": "A box of three macarons in assorted flavors",
       "price": 4.99,
       "image": "images/macarons.png",
+      "estimatedCalories": 180,
       "vegan": "no",
       "glutenfree": "yes"
     },
@@ -44,6 +49,7 @@
       "description": "A classic butter croissant with a flaky crust stuffed with an assortment of berries",
       "price": 7.99,
       "image": "images/stuffed-croissant.png",
+      "estimatedCalories": 400,
       "vegan": "no",
       "glutenfree": "no"
     },
@@ -52,6 +58,7 @@
       "description": "A classic tiramisu with a twist made with layers of matcha-soaked ladyfingers and mascarpone cream",
       "price": 8.99,
       "image": "images/matcha-tiramisu.png",
+      "estimatedCalories": 300,
       "vegan": "no",
       "glutenfree": "yes"
     },
@@ -60,6 +67,7 @@
       "description": "A flaky pastry shell filled with a sweet egg custard",
       "price": 3.99,
       "image": "images/egg-tart.png",
+      "estimatedCalories": 120,
       "vegan": "no",
       "glutenfree": "yes"
     },
@@ -68,6 +76,7 @@
       "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
       "price": 2.99,
       "image": "images/everything-bagel.png",
+      "estimatedCalories": 90,
       "vegan": "yes",
       "glutenfree": "no"
     },
@@ -76,6 +85,7 @@
       "description": "A soft gingerbread cookie with a sweet icing glaze",
       "price": 1.99,
       "image": "images/gingerbread-man.png",
+      "estimatedCalories": 60,
       "vegan": "yes",
       "glutenfree": "yes"
     },
@@ -84,6 +94,7 @@
       "description": "A slice of classic New York cheesecake topped with strawberries",
       "price": 8.99,
       "image": "images/strawberry-cheesecake.png",
+      "estimatedCalories": 320,
       "vegan": "no",
       "glutenfree": "yes"
     },
@@ -92,6 +103,7 @@
       "description": "Light and airy pâte à choux filled with sweet whipped cream",
       "price": 2.99,
       "image": "images/cream-puff.png",
+      "estimatedCalories": 110,
       "vegan": "no",
       "glutenfree": "yes"
     }
